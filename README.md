@@ -7,7 +7,7 @@ To get started with Exclude from Search, [view the online tutorial](http://cferd
 
 ## Changelog
 * v1.1 (October 31, 2013)
-  * [Added a link to settings from plugin menu](https://github.com/cferdinandi/web-app-starter-kit/issues/13)
+  * [Added a link to settings from plugin menu](https://github.com/cferdinandi/exclude-from-search/issues/1)
 * v1.0 (October 16, 2013)
   * Initial release.
 
