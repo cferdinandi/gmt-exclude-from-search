@@ -7,8 +7,9 @@ Exclude from Search is a simple plugin that let's you exclude pages and posts fr
 **In This Documentation**
 
 1. [Getting Started](#getting-started)
-2. [License](#license)
-3. [Changelog](#changelog)
+2. [How to Contribute](#how-to-contribute)
+3. [License](#license)
+4. [Changelog](#changelog)
 
 
 
@@ -21,6 +22,12 @@ Getting started with Exclude from Search is as simple as installing a plugin:
 3. Control which pages and posts are excluded under "Settings" in the Admin Dashboard.
 
 And that's it, you're done. Nice work!
+
+
+
+## How to Contribute
+
+In lieu of a formal style guide, take care to maintain the existing coding style. Don't forget to update the version number, the changelog (in the `readme.md` file), and when applicable, the documentation.
 
 
 
