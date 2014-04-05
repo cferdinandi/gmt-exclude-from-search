@@ -4,6 +4,8 @@ A simple plugin to exclude pages and posts from your WordPress search results.
 
 Exclude from Search is a simple plugin that let's you exclude pages and posts from your WordPress search results. It's forked from code by [C. Bavota](http://bavotasan.com/2010/excluding-pages-from-wordpress-search/) and [SpeckyBoy](http://speckyboy.com/2010/09/19/10-useful-wordpress-search-code-snippets/).
 
+[Download Exclude from Search](https://github.com/cferdinandi/exclude-from-search/archive/master.zip)
+
 **In This Documentation**
 
 1. [Getting Started](#getting-started)
