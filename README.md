@@ -41,7 +41,9 @@ Exclude from Search is licensed under the [MIT License](http://gomakethings.com/
 
 ## Changelog
 
-* v1.1 - October 31, 2013
+Exclude from Search uses [semantic versioning](http://semver.org/).
+
+* v1.1.0 - October 31, 2013
 	* [Added a link to settings from plugin menu](https://github.com/cferdinandi/exclude-from-search/issues/1)
-* v1.0 - October 16, 2013
+* v1.0.0 - October 16, 2013
 	* Initial release.
