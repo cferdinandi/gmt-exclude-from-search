@@ -11,7 +11,6 @@ Exclude from Search is a simple plugin that let's you exclude pages and posts fr
 1. [Getting Started](#getting-started)
 2. [How to Contribute](#how-to-contribute)
 3. [License](#license)
-4. [Changelog](#changelog)
 
 
 
@@ -36,14 +35,3 @@ In lieu of a formal style guide, take care to maintain the existing coding style
 ## License
 
 Exclude from Search is licensed under the [MIT License](http://gomakethings.com/mit/).
-
-
-
-## Changelog
-
-Exclude from Search uses [semantic versioning](http://semver.org/).
-
-* v1.1.0 - October 31, 2013
-	* [Added a link to settings from plugin menu](https://github.com/cferdinandi/exclude-from-search/issues/1)
-* v1.0.0 - October 16, 2013
-	* Initial release.
