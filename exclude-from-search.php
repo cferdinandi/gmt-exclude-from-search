@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Exclude from Search
  * Plugin URI: https://github.com/cferdinandi/exclude-from-search/
- * Description: Exclude pages from your WordPress search results. Control which pages and posts are excluded under <a href="options-general.php?page=exsearch_theme_options">Settings &rarr; Exclude from Search</a>.
+ * Description: Exclude pages from your WordPress search results. Control which pages and posts are excluded under <a href="options-general.php?page=exclude_from_search">Settings &rarr; Exclude from Search</a>.
  * Version: 2.0.0
  * Author: Chris Ferdinandi
  * Author URI: http://gomakethings.com

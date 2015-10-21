@@ -166,7 +166,7 @@
 		// $theme_page = add_theme_page( __( 'Theme Options', 'exsearch' ), __( 'Theme Options', 'exsearch' ), 'edit_theme_options', 'theme_options', 'exsearch_theme_options_render_page' );
 
 		// $theme_page = add_menu_page( __( 'Theme Options', 'exsearch' ), __( 'Theme Options', 'exsearch' ), 'edit_theme_options', 'theme_options', 'exsearch_theme_options_render_page' );
-		$theme_page = add_submenu_page( 'options-general.php', __( 'Exclude from Search', 'exsearch' ), __( 'Exclude from Search', 'exsearch' ), 'edit_theme_options', 'theme_options', 'exsearch_theme_options_render_page' );
+		$theme_page = add_submenu_page( 'options-general.php', __( 'Exclude from Search', 'exsearch' ), __( 'Exclude from Search', 'exsearch' ), 'edit_theme_options', 'exclude_from_search', 'exsearch_theme_options_render_page' );
 	}
 	add_action( 'admin_menu', 'exsearch_theme_options_add_page' );
 
