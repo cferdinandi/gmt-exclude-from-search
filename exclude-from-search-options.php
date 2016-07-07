@@ -109,7 +109,7 @@
 			<form method="post" action="options.php">
 				<?php
 					settings_fields( 'exsearch_options' );
-					do_settings_sections( 'theme_options' );
+					do_settings_sections( 'exsearch_theme_options' );
 					submit_button();
 				?>
 			</form>
@@ -134,7 +134,7 @@
 		// $title - Section title
 		// $callback - // Section callback (we don't want anything)
 		// $page - // Menu slug, used to uniquely identify the page. See exsearch_theme_options_add_page().
-		add_settings_section( 'general', '',  '__return_false', 'theme_options' );
+		add_settings_section( 'general', '',  '__return_false', 'exsearch_theme_options' );
 
 
 		// Register our individual settings fields
@@ -144,8 +144,8 @@
 		// $callback - Function that creates the field (from the Theme Option Fields section).
 		// $page - The menu page on which to display this field.
 		// $section - The section of the settings page in which to show the field.
-		add_settings_field( 'post_types', __( 'Post Types', 'exsearch' ), 'exsearch_settings_field_exclude_post_types', 'theme_options', 'general' );
-		add_settings_field( 'individual_pages', __( 'Individual Pages/Posts', 'exsearch' ), 'exsearch_settings_field_exclude_individual_pages', 'theme_options', 'general' );
+		add_settings_field( 'post_types', __( 'Post Types', 'exsearch' ), 'exsearch_settings_field_exclude_post_types', 'exsearch_theme_options', 'general' );
+		add_settings_field( 'individual_pages', __( 'Individual Pages/Posts', 'exsearch' ), 'exsearch_settings_field_exclude_individual_pages', 'exsearch_theme_options', 'general' );
 	}
 	add_action( 'admin_init', 'exsearch_theme_options_init' );
 
@@ -163,9 +163,9 @@
 		// $capability - Capability required
 		// $menu_slug - Used to uniquely identify the page
 		// $function - Function that renders the options page
-		// $theme_page = add_theme_page( __( 'Theme Options', 'exsearch' ), __( 'Theme Options', 'exsearch' ), 'edit_theme_options', 'theme_options', 'exsearch_theme_options_render_page' );
+		// $theme_page = add_theme_page( __( 'Theme Options', 'exsearch' ), __( 'Theme Options', 'exsearch' ), 'edit_theme_options', 'exsearch_theme_options', 'exsearch_theme_options_render_page' );
 
-		// $theme_page = add_menu_page( __( 'Theme Options', 'exsearch' ), __( 'Theme Options', 'exsearch' ), 'edit_theme_options', 'theme_options', 'exsearch_theme_options_render_page' );
+		// $theme_page = add_menu_page( __( 'Theme Options', 'exsearch' ), __( 'Theme Options', 'exsearch' ), 'edit_theme_options', 'exsearch_theme_options', 'exsearch_theme_options_render_page' );
 		$theme_page = add_submenu_page( 'options-general.php', __( 'Exclude from Search', 'exsearch' ), __( 'Exclude from Search', 'exsearch' ), 'edit_theme_options', 'exclude_from_search', 'exsearch_theme_options_render_page' );
 	}
 	add_action( 'admin_menu', 'exsearch_theme_options_add_page' );
